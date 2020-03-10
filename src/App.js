@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleSlider from './components/SimpleSlider';
 import CenterMode from './components/CenterMode';
+import SwipeToSlide from './components/SwipeToSlide';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -9,7 +10,7 @@ const Container = styled.div`
 `;
 
 const ContentSlide = styled.div`
-  padding: 0 30px;
+  padding: 0;
 `;
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ContentSlide>
         <SimpleSlider/>
         <CenterMode/>
+        <SwipeToSlide/>
       </ContentSlide>
     </Container>
   );
