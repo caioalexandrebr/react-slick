@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 const Box = styled.div`
   padding: 20px;
+  margin: 0 8px;
   position: relative;
   border-radius: 30px;
-  background: #F1F1F1;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  border: 1px solid #F1F1F1;
 `;
 
 const Button = styled.a`
@@ -16,7 +17,7 @@ const Button = styled.a`
   font-weight: bold;
   text-align: center;
   border-radius: 500px;
-  background: rgb(138, 5, 190);
+  background: rebeccapurple;
 `;
 
 const Card = () => (
