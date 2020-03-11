@@ -24,7 +24,8 @@
   
   .slick-dots {
     width: auto;
-    bottom: 15px;
+    bottom: -32px;
     position: absolute;
+    transform: translateY(50%);
   }
 }
