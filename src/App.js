@@ -13,15 +13,24 @@ const ContentSlide = styled.div`
   padding: 0;
 `;
 
+const ContainerSmall = styled.div`
+  margin: 0 auto;
+  max-width: 700px;
+`;
+
 function App() {
   return (
-    <Container>
-      <ContentSlide>
+    <>
+      <ContainerSmall className="product">
         <SimpleSlider/>
-        <CenterMode/>
-        <SwipeToSlide/>
-      </ContentSlide>
-    </Container>
+      </ContainerSmall>
+      <Container>
+        <ContentSlide>
+          <CenterMode/>
+          <SwipeToSlide/>
+        </ContentSlide>
+      </Container>
+    </>
   );
 }
 
