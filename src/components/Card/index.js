@@ -17,6 +17,7 @@ const Button = styled.a`
   font-weight: bold;
   text-align: center;
   border-radius: 500px;
+  text-decoration: none;
   background: rebeccapurple;
 `;
 
@@ -24,7 +25,7 @@ const Card = () => (
   <Box>
     <h1>Nullam</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id mi lacinia, molestie metus eu.</p>
-    <Button>Praesent quis</Button>
+    <Button href="https://www.google.com/" target="_blank">Praesent quis</Button>
   </Box>
 );
 

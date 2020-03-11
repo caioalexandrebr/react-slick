@@ -9,7 +9,7 @@ export default class SwipeToSlide extends Component {
       className: "center",
       infinite: true,
       centerPadding: "60px",
-      slidesToShow: 4,
+      slidesToShow: 5,
       arrows: false,
       swipeToSlide: true,
       afterChange: function(index) {
@@ -31,37 +31,37 @@ export default class SwipeToSlide extends Component {
         <h2>Swipe To Slide</h2>
         <Slider {...settings}>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>
           <div>
-            <Circle>
+            <Circle link="https://www.google.com/">
               Lorem ipsum
             </Circle>
           </div>

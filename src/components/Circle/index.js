@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Square = styled.div`
+const Square = styled.a`
   width: 90%;
+  display: block;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -30,7 +31,7 @@ const Content = styled.div`
 `;
 
 const Circle = (props) => (
-  <Square>
+  <Square href={props.link} target="_blank">
     <Content>
       {props.children}
     </Content>
