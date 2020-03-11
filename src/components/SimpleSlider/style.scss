@@ -1,0 +1,27 @@
+.slick-prev, .slick-next {
+  width: auto;
+  height: auto;
+  padding: 15px;
+  border-radius: 500px;
+  background: #502c74;
+  transform: translate(0);
+}
+
+.slick-prev {
+  top: auto;
+  bottom: 0;
+  left: 150px;
+  position: absolute;
+}
+
+.slick-next {
+  left: 210px;
+  position: relative;
+  display: inline-block;
+}
+
+.slick-dots {
+  width: auto;
+  bottom: 15px;
+  position: absolute;
+}
